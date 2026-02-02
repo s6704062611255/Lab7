@@ -8,7 +8,7 @@ void fill(int a[][20], int c, int r);
 
 
 int main(){
-    int arr[2][max] , m,n;
+    int arr[max][max] , m,n;
     scanf("%d %d",&m,&n);
     arr[m][n];
     fill(arr,m,n);
