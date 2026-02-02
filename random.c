@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>         //ข้อ3
 #include <stdlib.h>
 #include <time.h>
 int random1to100();
@@ -43,4 +43,5 @@ int random1to100()
     int random_num = (rand() % 100) + 1;
     //printf("%d", random_num);
     return random_num;
+
 }
